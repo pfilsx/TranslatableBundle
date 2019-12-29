@@ -1,0 +1,7 @@
+/vendor
+/composer.lock
+###> phpunit/phpunit ###
+/phpunit.xml
+/build
+/.phpunit.result.cache
+/tests/app/cache

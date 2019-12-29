@@ -1,0 +1,9 @@
+services:
+  _defaults:
+    public: true
+    autowire: true
+    autoconfigure: true
+
+  Pfilsx\Translatable\:
+    resource: "../../*"
+    exclude: "../../{DependencyInjection,Maker,Generator,Resources,TranslatableBundle.php}"
